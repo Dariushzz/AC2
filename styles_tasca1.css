@@ -1,0 +1,97 @@
+body {
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+}
+
+#ventana {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 7px solid grey;
+    width: 300px;
+    padding: 10px;
+}
+
+
+#barrasuperior {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#circulorojo,
+#circuloamarillo,
+#circuloverde {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#circulorojo{
+    background-color: red;
+}
+
+#circuloamarillo{
+    background-color: yellow;
+}
+
+#circuloverde{
+    background-color: green;
+}
+
+#contenido {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#fila1,
+#fila2,
+#fila3 {
+    display: flex;
+    gap: 8px;
+}
+
+#cuadradorojo1 {
+    width: 66.66%;
+    height: 40px;
+    background-color: red;
+}
+
+#cuadradorojo2 {
+    width: 33.33%;
+    height: 40px;
+    background-color:red;
+}
+
+#cuadradonaranja {
+    width: 50%;
+    height: 120px;
+    background-color: orange;
+}
+
+#columnamorada {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#cuadradomorado1,
+#cuadradomorado2 {
+    height: 50%;
+    background-color: purple;
+}
+
+#cuadradoazul1,
+#cuadradoazul2,
+#cuadradoazul3 {
+    width: 33.33%;
+    height: 40px;
+    background-color: rgb(35, 87, 182);
+}
